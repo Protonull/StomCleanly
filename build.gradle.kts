@@ -20,6 +20,11 @@ dependencies {
 }
 
 tasks {
+    processResources {
+        filesMatching("extension.json") {
+            expand(project.properties)
+        }
+    }
     test {
         useJUnitPlatform()
     }

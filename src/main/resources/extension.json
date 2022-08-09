@@ -1,0 +1,5 @@
+{
+    "name": "${project.name}",
+    "version": "${project.version}",
+    "entrypoint": "uk.protonull.minestom.StomCleanly"
+}
