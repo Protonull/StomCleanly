@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.Minestom:Minestom:-SNAPSHOT") {
+    compileOnly("com.github.Minestom:Minestom:-SNAPSHOT") {
         isChanging = true
     }
 
